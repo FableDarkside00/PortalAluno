@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modelo.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Portal Do Aluno</title>
+</head>
+<body>
+    <div class="container">
+    
+        <form >        
+            <h1>Portal do Aluno</h1>
+            <input type="text" class="nome" placeholder="Insira seu nome">
+            <input type="number" class="cpf" placeholder="Insira seu CPF">
+            <input type="submit" class="enviar">
+            <button class="in_modal">Checa Inscrição</button>
+        </form>
+
+        <div class="modal">
+            <h2 class="modal_titulo">Verificar Inscrição no Sistema</h2>
+            <div class="conteudo-modal">
+                <span class="fechar">&times;</span>
+                <input type="text" placeholder="Insira seu CPF" class="pesquisa_cpf">
+                <input type="submit" class="verificar">
+            </div>
+
+            <div class="resposta-modal">
+                <p class="resposta_nome"></p>
+                <p class="resposta_cpf"></p>
+            </div>
+        </div>
+    
+    </div>
+
+    <script src="inscricao_fetch.js"></script>
+    <script src="requsicao_fetch.js"></script>
+    <script src="modal.js"></script>
+</body>
+</html>

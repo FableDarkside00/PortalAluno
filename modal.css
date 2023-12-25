@@ -1,0 +1,77 @@
+.modal{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    width: 70%;
+    height: 70%;
+    padding: 2%;
+    gap: 5px;
+    overflow: auto;
+    background-color: #052f5f;
+    border-radius: 20pt;
+    border: 1px solid white;
+    box-shadow: 10px 10px 15px black;
+}
+
+.modal_titulo{
+    color: white;
+}
+
+
+.conteudo-modal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2%;
+    width: 80%;
+    height: 200px;
+}
+
+.fechar{
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.fechar:hover, .fechar:focus{
+    color: lightslategray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.resposta-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10pt;
+    padding: 2%;
+    width: 80%;
+    height: 200px;
+}
+
+.resposta_nome{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.resposta_cpf{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
