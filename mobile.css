@@ -1,0 +1,48 @@
+@media screen and (max-width: 500px){
+    form{
+        padding: 20px;
+        border-radius: 10pt;
+        font-size: 10px;
+    }
+
+    input{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    input[type= 'submit']{
+        height: 65px;
+    }
+
+
+    .modal{
+        height: 300px;
+        padding: 20px;
+    }
+
+    .modal_titulo{
+        font-size: 18px;
+    }
+
+    .conteudo-modal{
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .verificar{
+        width: fit-content;
+    }
+
+    .pesquisa_cpf{
+        width: 300px;
+    }
+
+    .resposta_nome, .resposta_cpf {
+        font-size: 15px;
+    }
+
+    .fechar{
+        font-size: 25px;
+    }
+}
+

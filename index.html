@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="modelo.css">
     <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Portal Do Aluno</title>
 </head>
 <body>
@@ -12,9 +14,16 @@
     
         <form >        
             <h1>Portal do Aluno</h1>
-            <input type="text" class="nome" placeholder="Insira seu nome">
-            <input type="number" class="cpf" placeholder="Insira seu CPF">
-            <input type="submit" class="enviar">
+            <input type="text" class="nome"  placeholder="Insira seu nome">
+            <input type="number" class="cpf" placeholder="Insira seu CPF sem pontos ou traços">
+            <div class="ordem">
+                <button class="gerador">
+                    <span class="material-symbols-outlined">
+                    smart_toy
+                    </span>
+                </button>
+                <input type="submit" class="enviar">
+            </div>
             <button class="in_modal">Checa Inscrição</button>
         </form>
 
@@ -22,7 +31,7 @@
             <h2 class="modal_titulo">Verificar Inscrição no Sistema</h2>
             <div class="conteudo-modal">
                 <span class="fechar">&times;</span>
-                <input type="text" placeholder="Insira seu CPF" class="pesquisa_cpf">
+                <input type="text" placeholder="Insira seu CPF sem pontos ou traços" class="pesquisa_cpf">
                 <input type="submit" class="verificar">
             </div>
 
