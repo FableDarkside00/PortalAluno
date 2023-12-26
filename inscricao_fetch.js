@@ -65,7 +65,7 @@ enviar.addEventListener("click", (evento) => {
     }
 
     //Requisição PHP
-    fetch('http://comoamovc.free.nf/teste/api_teste/insert_aluno.php', opcoes)
+    fetch('insert_aluno.php', opcoes)
     .then(resposta =>{
         if (resposta.ok) {
             return resposta.json()
